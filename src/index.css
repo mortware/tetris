@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+  background: black;
+  user-select: none;
+  font-family: 'Courier New', Courier, monospace;
+}
