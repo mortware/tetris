@@ -61,7 +61,6 @@ const Tetris = () => {
     }
 
     const dropPlayer = () => {
-        console.log("timer off")
         setDropTime(null);
         drop();
     }
@@ -69,7 +68,6 @@ const Tetris = () => {
     const keyUp = ({ keyCode }) => {
         if (!gameOver) {
             if (keyCode === 40) {
-                console.log("timer on")
                 setDropTime(1000 / (level + 1) + 200);
             }
         }
@@ -77,7 +75,6 @@ const Tetris = () => {
 
     const move = ({ keyCode }) => {
         if (!gameOver) {
-            console.log(keyCode);
             if (keyCode === 37) {
                 movePlayer(-1);
             } else if (keyCode === 39) {
