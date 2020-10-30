@@ -10,7 +10,7 @@ const Stage = ({ stage }) => {
     return (
         <div className="stage" style={{
             gridTemplateRows: `repeat(${STAGE_HEIGHT}, calc(25vw / ${STAGE_WIDTH})`,
-            gridTemplateColumns: `repeat(${STAGE_WIDTH}, 1fr)`,
+            gridTemplateColumns: `repeat(${STAGE_WIDTH}, calc(25vw / ${STAGE_WIDTH})`,
         }}>
             {cells}
         </div>

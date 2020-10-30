@@ -10,7 +10,7 @@ import { useStage } from '../hooks/useStage';
 import { useInterval } from '../hooks/useInterval';
 import { useGameStatus } from '../hooks/useGameStatus';
 
-import './_styles.css';
+import './_styles.scss';
 
 const Tetris = () => {
 
